@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------------navbar----------------------------- */
+
+.navbar {
+    background-color: #263238;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+
+.nav-link:hover {
+    background-color: #607d8b;
+    border-radius: 30px;
+    color: black;
+    padding: 10px;
+}
+
+
+.dropdown-menu {
+    background-color: #607d8b;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    border-radius: 30px;
+}
+.fa-bars{
+    border: 1px white solid;
+    padding: 5px;
+}
+
+/* -----------------------------background image----------------------------- */
+
+.bgimg{
+    background-image: url(ldr1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.btn-outline-warning:hover{
+    color: white;
+}
+
+/* -----------------------------Content----------------------------- */
+
+.content{
+    padding: 22% 25%;
+}
+.content p{
+    font-size: 42px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+    
+}
+
+/* ----------------------------- Car models ----------------------------- */
+
+.carheading {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    background: #000;
+    color: #fff;
+}
+.model{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/* ----------------------------- About Us ----------------------------- */
+
+.team{
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.about{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.profile{
+    font-size: 22px;
+}
+
+/* ----------------------------- services ----------------------------- */
+
+#services{
+    margin: 40px;
+    text-align: center;
+}
+.servicescontent{
+    margin-top: 30px;
+}
+
+figure img{
+    width: 500px;
+    margin: 10px;
+}
+
+/* ----------------------------- About Us ----------------------------- */
+
+#contact{
+    margin: 20px 0 0 0;
+    background-color: #263238;
+
+}
+form .card{
+    width:30rem;
+    margin:20px;
+    padding: 20px;
+}
+form button{
+    width: fit-content;
+}
+
+
+/* small device */
+
+@media (max-width:576px) {
+    .bgimg{
+        background-image: url(lding.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        width:100% ;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .content p{
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 1;
+    }
+    .content{
+        padding: 55% 25%;
+    }
+    
+}
+
+/* medium device */
+
+@media (min-width:577px) and (max-width:767px) {
+    .bgimg{
+        background-image: url(ldr1.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .content{
+        padding: 50% 25%;
+    }
+    .content p{
+        font-size: 32px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 1;
+    }
+    
+}
+
+/* large device */
+
+@media (min-width:768px) and (max-width:992px) {
+    .bgimg{
+        background-image: url(ldr1.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .content{
+        padding: 40% 25%;
+    }
+    .content p{
+        font-size: 32px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 1;
+    }
+}
+
+/* extra large device */
+
+@media (max-width:1200px) {
+    .bgimg{
+        background-image: url(ldr1.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+}
